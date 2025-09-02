@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './first';
+import Calculator from './calculator';
+import Products from './products';
+import Form from './form';
+
+// function sum(num1. num2) {
+//   const ans =  num1 + num2;
+//   return ans;
+// }
+
+// sum(10, 20);
+// sum(200, 300);
+// sum();
 
 function App() {
+  // returns jsx => javascript xml
+  console.log("---App---");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Calculator /> */}
+      {/* <Products /> */}
+      <Form />
     </div>
   );
 }

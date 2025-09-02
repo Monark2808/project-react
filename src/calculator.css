@@ -1,0 +1,14 @@
+/* #calculator {
+    background-color: red;
+} */
+
+#calculator button {
+    padding: 0.25rem 0.5rem;
+    width: 120px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
