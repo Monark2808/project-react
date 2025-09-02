@@ -7,7 +7,7 @@ const Event = () => {
     })
 
     return (
-        <div>Event</div>
+        <div>Learnign events</div>
     )
 }
 
